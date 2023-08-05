@@ -3,12 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "engines": {
-    "node": "14.x"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node index.js"
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
@@ -27,6 +24,9 @@
     "node-cron": "^3.0.1",
     "nodemon": "^2.0.16",
     "request-ip": "^2.2.0",
+    "socket.io": "^4.5.1",
+    "swagger2": "^3.0.1",
+    "swagger2-koa": "^3.0.1",
     "uuid": "^8.3.2",
     "winston": "^3.7.2"
   }
